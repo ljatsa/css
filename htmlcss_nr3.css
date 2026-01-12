@@ -13,7 +13,6 @@ body {
 header {
   padding: 20px 0;
   float: left;
-background-image:url(../../Downloads/coolbackgrounds-fractalize-cool_backgrounds (2).png);
   color: #000;
 
 }
@@ -36,11 +35,16 @@ nav ul li a {
 
 
 .logo {
- background-image: url(../../Downloads/coolbackgrounds-fractalize-cool_backgrounds (2).png);
-  padding: 80px 0;
+  background-image: url(image.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
   text-align: center;
   color: white;
+  width: 100%;
 }
+
 
 .logo h1 {
   font-size: 50px;
@@ -95,7 +99,7 @@ footer {
   background-color: #666;
   color: white;
   text-align: center;
-  padding: 64px;
+  padding: 60px;
   position: fixed;
   bottom: 0;
   width: 100%;
